@@ -1,4 +1,4 @@
-language: php
+Clanguage: php
 php:
     - '5.4'
     - '5.5'
@@ -6,6 +6,5 @@ php:
     - '7.0'
     - hhvm
     - nightly
-phpunit
-install:
-    - composer install
+before_script: composer install -n
+script: vendor/bin/phpunit
