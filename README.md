@@ -1,6 +1,8 @@
 # _  
 ##### (php lodash)
 
+*This is not fully production ready*
+
 A simple PHP implementation of the awesome [lodash](https://https://lodash.com/docs)
 javascript library.
 
