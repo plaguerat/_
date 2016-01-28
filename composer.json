@@ -1,0 +1,26 @@
+{
+    "name": "darren/_",
+    "description": "PHP port of lodas (javascript)",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Darren Green",
+            "email": "darrensgreen@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DarrenGreen\\_\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DarrenGreen\\Tests\\_\\": "tests"
+        }
+    }
+}
