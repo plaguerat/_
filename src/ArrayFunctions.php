@@ -49,6 +49,19 @@ trait ArrayFunctions
         return $newArray;
     }
 
+
+    /**
+     * Return an array that's a reversed version of the input array. 
+     *
+     * @param  [array] $array Initial array to reverse
+     * @return [array]        The new reversed array
+     */
+    public function reverse($array)
+    {
+        $new_array = array_reverse($array);
+        return $new_array;
+    }
+
     /**
      * Return values that are different between $array1 and subsequent passed in
      * arrays

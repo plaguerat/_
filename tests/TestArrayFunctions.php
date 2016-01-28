@@ -51,6 +51,14 @@ class TestArrayFunctions extends \PHPUnit_Framework_TestCase
         $this->assertCount(7, $newArray, "passed");
     }
 
+
+    public function testReverse(){
+
+        $newArray = $this->traitObject->reverse([1,2,3,4,5]);
+        
+        $this->assertTrue($newArray == [5,4,3,2,1]);
+    }
+    
     public function testDifference()
     {
         $array1 = [ '1', '2', '3' ];
