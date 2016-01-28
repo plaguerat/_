@@ -14,7 +14,13 @@ Down load the zip archive and install it in your path
 - Single class
 - No mutations,
 - **PURE** functions (well, methods)
-- Access via class (->) or static (::)
+- Access via object (->) or class (::)
+
+The links below will take you do the documentation for each subset of functions.
+Examples are with each definition
 
 #### [Arrays](/docs/arrays.md)
 #### [Tests](/docs/tests.md)
+
+## @Todo
+- Finish porting everything over
