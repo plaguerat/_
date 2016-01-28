@@ -17,7 +17,4 @@ Down load the zip archive and install it in your path
 - Access via class (->) or static (::)
 
 #### [Arrays](/docs/arrays.md)
-- chunk
-- compact
-- concat
-- difference
+#### [Tests](/docs/tests.md)
