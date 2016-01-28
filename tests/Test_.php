@@ -1,7 +1,7 @@
 <?php
-namespace DarrenGreen\Tests\_;
+namespace PlagueRat\Tests\_;
 
-use DarrenGreen\_\_;
+use PlagueRat\_\_;
 
 class Test_ extends \PHPUnit_Framework_TestCase
 {

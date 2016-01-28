@@ -1,5 +1,5 @@
 <?php
-namespace DarrenGreen\_;
+namespace PlagueRat\_;
 
 trait TestFunctions
 {
@@ -14,7 +14,7 @@ trait TestFunctions
     {
         return is_numeric($testCase);
     }
-    
+
     /**
      * Test if $testCase is an object
      *

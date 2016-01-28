@@ -1,5 +1,5 @@
 <?php
-namespace DarrenGreen\_;
+namespace PlagueRat\_;
 
 trait ArrayFunctions
 {

@@ -1,8 +1,9 @@
 <?php
-namespace DarrenGreen\_;
+namespace PlagueRat\_;
 
 use InvalidArgumentException;
-use DarrenGreen\_\ArrayFunctions;
+use PlagueRat\_\ArrayFunctions;
+use PlagueRat\_\TestFunctions;
 
 class _
 {

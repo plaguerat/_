@@ -1,7 +1,7 @@
 <?php
-namespace DarrenGreen\Tests\_;
+namespace PlagueRat\Tests\_;
 
-use DarrenGreen\_\_;
+use PlagueRat\_\_;
 
 class TestArrayFunctions extends \PHPUnit_Framework_TestCase
 {
@@ -14,7 +14,7 @@ class TestArrayFunctions extends \PHPUnit_Framework_TestCase
 
     public function createObjectForTrait()
     {
-        $traitName = "DarrenGreen\_\ArrayFunctions";
+        $traitName = "PlagueRat\_\ArrayFunctions";
         return $this->getObjectForTrait($traitName);
     }
 
